@@ -29,7 +29,7 @@ try {
     }
 
     // show cabinet status
-    echo "\nADDED SOME PRODUCTS\n";
+    echo "ADDED";
     echo "CABINET STATUS : ";
     echo $cabinet;
 
@@ -41,7 +41,7 @@ try {
     $cabinet->closeDoor();
 
     // show cabinet status
-    echo "TAKE PRODUCT";
+    echo "TAKE";
     echo "CABINET STATUS:";
     echo $cabinet;
 
